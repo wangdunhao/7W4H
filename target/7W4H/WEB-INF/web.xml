@@ -1,0 +1,36 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <!--填写项目名，比方说鱼骨图，直方图等-->
+    <display-name>7W4H</display-name>
+    <!--填写属性标签，为集成与融合做准备-->
+    <context-param>
+        <param-name>webAppAttributeLabel</param-name>
+        <param-value>思维发散</param-value>
+    </context-param>
+    <!--功能描述，描述软件的主要功能-->
+    <context-param>
+        <param-name>webAppDescription</param-name>
+        <param-value>7W4H是一种通过设问，经过不断分析、改进于优化，最后找到问题解决方案的一种创新方法</param-value>
+    </context-param>
+    <!--webApp图标，从静态资源中选择图片，将图片单独发给我-->
+    <context-param>
+        <param-name>webAppIcon</param-name>
+        <param-value>创新方法管理平台.png</param-value>
+    </context-param>
+    <!--webApp版本号，当前软件版本迭代次数-->
+    <context-param>
+        <param-name>webAppVersion</param-name>
+        <param-value>v2.0</param-value>
+    </context-param>
+    <!--webApp分类，从知识工程、TRIZ、质量分析、企业管理、产品设计、创新思维、其他选择一项-->
+    <context-param>
+        <param-name>webAppCategory</param-name>
+        <param-value>创新思维</param-value>
+    </context-param>
+</web-app>
